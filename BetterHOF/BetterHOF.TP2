@@ -3477,7 +3477,7 @@ COPY_EXISTING ~bwtalis.itm~ ~override~
 	LPF ALTER_ITEM_EFFECT INT_VAR check_headers=0 check_globals=1 match_opcode=modifyac parameter1=2 END
 	LPF ALTER_ITEM_EFFECT INT_VAR check_headers=0 check_globals=1 match_opcode=modifysavevsbreath new_opcode=modifyallsaves parameter1=2 END
 	LPF ALTER_ITEM_EFFECT INT_VAR check_headers=0 check_globals=1 match_opcode=modifycoldresistance parameter1=40 END
-	LPF ALTER_ITEM_EFFECT INT_VAR check_headers=0 check_globals=1 match_opcode=modifymaxhp parameter1=20 parameter2=0 END
+	LPF ALTER_ITEM_EFFECT INT_VAR check_headers=0 check_globals=1 match_opcode=modifymaxhp parameter1=20 END
 	WRITE_LONG price 8000
 	SAY NAME2 @112
 	SAY IDENTIFIED_DESC @113
